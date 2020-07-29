@@ -1,0 +1,145 @@
+body{
+    overflow-x: hidden;
+    background-color: #f7f8f9;
+}
+/*
+==========
+start Navbar
+==========
+*/
+.bg-light{
+    background-color: white !important;
+}
+.navbar-light .navbar-brand {
+    width: 180px;
+}
+.navbar-nav .nav-item{
+    margin-left: 30px;
+    margin-top: 6px;
+    font-size: 13px;
+
+}
+.navbar-nav .nav-item a{
+    text-transform: capitalize;
+    color:#4d4d53;
+
+}
+.navbar-nav .nav-item a i{
+    margin-right: 6px;
+}
+.navbar-light .form-news{
+    position: relative;
+}
+.navbar-light .form-news input[type = 'search']{
+    border-radius: 25px;
+    padding: 17px;
+}
+.navbar-light .form-news a i{
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    color: #bbaebc;
+}
+.navbar-nav .news-list{
+    display: inline-flex;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.navbar-nav .news-list li{
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 13px;
+
+}
+.navbar-nav .news-list li:nth-of-type(1) i{
+    font-size: 20px;
+    color: gold;
+    margin-right: 10px;
+}
+.navbar-nav .news-list li:nth-of-type(2) i{
+    font-size: 20px;
+    color: #29abe2;
+}
+.navbar-nav .news-list li span{
+    position: absolute;
+    background-color: #2bc6ff;
+    border-radius: 50%;
+    padding: 11px 11px 11px 2px;
+    top: -1px;
+    right: 1px;
+    left: 96%;
+    font-weight: 500;
+    display: block;
+    width: 24px;
+    height: 20px;
+    text-align: center;
+    line-height: 0px;
+    padding-left: 4px;
+    color: #fff;
+
+
+}
+/*
+==========
+End Navbar
+==========
+*/
+
+/*
+=================
+start slider
+=================
+*/
+.mainSlider{
+    margin-top: 40px;
+
+}
+.mainSlider .card-img, .card-img-bottom, .card-img-top{
+    width: 90%;
+
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+.mainSlider .card-img, .card-img-bottom, .card-img-top:hover{
+    width: 94%;
+}
+.mainSlider .card{
+    margin-left: 10px;
+    border-radius: 13px;
+}
+.mainSlider .card .card-body a{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+/* the slides */
+.slick-list .slick-slide {
+    margin: 0 10px;
+
+}
+.slick-initialized .slick-slid img {
+    width: 90%;
+}
+/* the parent */
+.slick-list {
+    margin: 0 -10px;
+}
+.card .card-time{
+    display: inline-flex;
+
+}
+.card .card-time li:first-child{
+    margin-left: 20px;
+    font-size: 15px;
+color: gray;
+}
+.card .card-time li:last-child{
+    margin-left: 30px;
+    font-size: 15px;
+    color: gray;
+
+}
