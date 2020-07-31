@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ebb5227-8525-4cfd-bdf2-ca49dfeede8a" name="Default Changelist" comment="" />
+    <list default="true" id="6ebb5227-8525-4cfd-bdf2-ca49dfeede8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ads.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/news-21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/js/script.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,16 +20,24 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fEgPUfli3gNOZhH2mtnPFkKl3i" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -55,16 +71,40 @@
       <workItem from="1596014367077" duration="5540000" />
       <workItem from="1596028195178" duration="3904000" />
       <workItem from="1596046675214" duration="7925000" />
+      <workItem from="1596058883645" duration="1172000" />
+      <workItem from="1596107158212" duration="16000" />
+      <workItem from="1596222424055" duration="10961000" />
     </task>
+    <task id="LOCAL-00001" summary="save final for first two divs">
+      <created>1596059397735</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596059397735</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="save final for first two divs" />
+    <option name="LAST_COMMIT_MESSAGE" value="save final for first two divs" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1596046675643">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1596059395112">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1596046675643" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596059395112" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1596059463421">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596059463421" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1596107161386">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1596107161386" />
   </component>
 </project>

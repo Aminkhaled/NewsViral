@@ -1,0 +1,290 @@
+body{
+    overflow-x: hidden;
+    background-color: #f7f8f9;
+}
+/*
+==========
+start Navbar
+==========
+*/
+.bg-light{
+    background-color: white !important;
+}
+.navbar-light .navbar-brand {
+    width: 180px;
+}
+.navbar-nav .nav-item{
+    margin-left: 30px;
+    margin-top: 6px;
+    font-size: 13px;
+
+}
+.navbar-nav .nav-item a{
+    text-transform: capitalize;
+    color:#4d4d53;
+
+}
+.navbar-nav .nav-item a i{
+    margin-right: 6px;
+}
+.navbar-light .form-news{
+    position: relative;
+}
+.navbar-light .form-news input[type = 'search']{
+    border-radius: 25px;
+    padding: 17px;
+}
+.navbar-light .form-news a i{
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    color: #bbaebc;
+}
+.navbar-nav .news-list{
+    display: inline-flex;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.navbar-nav .news-list li{
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 13px;
+
+}
+.navbar-nav .news-list li:nth-of-type(1) i{
+    font-size: 20px;
+    color: gold;
+    margin-right: 10px;
+}
+.navbar-nav .news-list li:nth-of-type(2) i{
+    font-size: 20px;
+    color: #29abe2;
+}
+.navbar-nav .news-list li span{
+    position: absolute;
+    background-color: #2bc6ff;
+    border-radius: 50%;
+    padding: 11px 11px 11px 2px;
+    top: -1px;
+    right: 1px;
+    left: 96%;
+    font-weight: 500;
+    display: block;
+    width: 24px;
+    height: 20px;
+    text-align: center;
+    line-height: 0px;
+    padding-left: 4px;
+    color: #fff;
+
+
+}
+/*
+==========
+End Navbar
+==========
+*/
+
+/*
+=================
+start slider
+=================
+*/
+.mainSlider{
+    margin-top: 40px;
+
+}
+.mainSlider .card-img, .card-img-bottom, .card-img-top{
+    width: 85%;
+
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+.mainSlider .card-img, .card-img-bottom, .card-img-top:hover{
+    width: 90%;
+}
+.mainSlider .card{
+    margin-left: 10px;
+    border-radius: 13px;
+    width: 95% !important;
+    padding-bottom: 0;
+}
+.mainSlider .card .card-body a{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+/* the slides */
+.slick-list .slick-slide {
+    margin: 0 10px;
+
+}
+
+/* the parent */
+.slick-list {
+    margin: 0 -10px;
+}
+.card .card-time{
+    display: inline-flex;
+
+}
+.card .card-time li:first-child{
+    margin-left: 20px;
+    font-size: 15px;
+color: gray;
+}
+.card .card-time li:last-child{
+    margin-left: 30px;
+    font-size: 15px;
+    color: gray;
+
+}
+
+/*
+===============
+main advertising
+===============
+
+*/
+.main-advert{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+/*
+===============
+info-news
+===============
+
+*/
+.info-news-weather{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.weather-app{
+    background-color: white;
+    padding: 15px;
+border-radius: 10px;
+    color: black;
+    width: 80%;
+}
+.weather-app .days{
+    margin-right: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 16px;
+}
+.weather-app ul li a{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+.weather-app ul li.day a{
+    font-size: 35px;
+}
+.weather-app .slick-prev,.weather-app .slick-next{
+    display: none !important;
+}
+.weather-app .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus{
+    display: none !important;
+}
+.weather-app .slick-list .slick-slide {
+    margin: 0 20px !important;
+
+}
+.city-weather ul li{
+    margin-top: 12px;
+}
+.city-weather ul li i{
+    margin-right: 10px;
+    color: gold;
+    font-size: 17px;
+}
+.categories-options{
+    background-color: white;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: black;
+    width: 80%;
+
+}
+.categories-options ul{
+    margin-left: 30px;
+}
+.categories-options li{
+    margin-bottom: 10px;
+}
+.categories-options li a{
+    color: gray;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.categories-options li a:hover{
+    color: black;
+    transition: 1s;
+}
+.categories-options li a i{
+     margin-right: 25px;
+     color: lightgray;
+ }
+.categories-options li a i:hover .categories-options li a{
+    color: black;
+    transition: 1s;
+}
+.categories-options li a i:hover{
+    color: black;
+    transition: 1s;
+}
+.info-news-weather .text-left h3 a{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+.info-news-weather .text-right h5 a{
+    font-size: 18px;
+    color: gray;
+    text-decoration: none;
+
+    margin-top: 8px;
+}
+.info-news-weather .main-post{
+    background-color: white !important;
+    align-content: center !important;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+
+}
+.info-news-weather .main-post img{
+    width: 650px;
+    margin: 0 auto;
+    position: relative;
+    right: 0;
+    top: 0;
+}
+.info-news-weather .main-post img:hover{
+    width: 700px;
+}
+.info-news-weather .main-post .post-info{
+    margin-top: 20px;
+}
+.info-news-weather .main-post .post-info .view-sharing{
+    display: inline-flex;
+    margin-left: 36%;
+}
+.info-news-weather .main-post .post-info .view-sharing li{
+    margin-left: 20px;
+}
+
+.info-news-weather .main-post .post-info .category{
+    margin-left: 25px;
+}

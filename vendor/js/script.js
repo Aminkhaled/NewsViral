@@ -51,4 +51,11 @@ $(document).ready(function() {
             }
         ]
     });
+    $('.city-weather').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        width: '300px',
+        autoplaySpeed: 2000,
+    });
 });
