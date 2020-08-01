@@ -272,7 +272,7 @@ border-radius: 10px;
     top: 0;
 }
 .info-news-weather .main-post img:hover{
-    width: 700px;
+    width: 670px;
 }
 .info-news-weather .main-post .post-info{
     margin-top: 20px;
@@ -413,4 +413,94 @@ Sidebar
 .sidebar .main-sidebar .short-news-title h3 a:hover{
     color: #e14157;
     transition: 2s;
+}
+
+/*
+==================
+main body post
+==================
+*/
+.main-body-post .categories-options-body{
+    background-color: white;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: black;
+    width: 70%;
+    margin-left: 10px;
+
+}
+.main-body-post .category-body{
+    position: relative;
+    top: -212px;
+    left: 10px;
+
+}
+.main-body-post .categories-options-body .text{
+    margin-bottom: 20px;
+}
+.main-body-post .categories-options-body .text h2{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.main-body-post .categories-options-body ul{
+    margin-left: 20px;
+}
+.main-body-post .categories-options-body li{
+    margin-bottom: 10px;
+}
+.main-body-post .categories-options-body li a{
+    color: gray;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.main-body-post .categories-options-body li a:hover{
+    color: black;
+    transition: 1s;
+}
+.main-body-post .categories-options-body li a i{
+    margin-right: 25px;
+    color: lightgray;
+}
+.main-body-post .categories-options-body li a i:hover .categories-options li a{
+    color: black;
+    transition: 1s;
+}
+.main-body-post .categories-options-body li a i:hover{
+    color: black;
+    transition: 1s;
+}
+
+.top-authors{
+    background-color: white;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: black;
+    margin-left: 10px;
+    position: relative;
+    top: -246px;
+    right: 15px;
+
+}
+.top-authors .text{
+    margin-bottom: 20px;
+}
+.top-authors .text h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.top-authors a{
+    text-decoration: none;
+    
+}
+.top-authors a img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+    margin-right: 3px;
 }
