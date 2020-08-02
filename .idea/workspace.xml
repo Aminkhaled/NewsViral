@@ -70,7 +70,9 @@
       <workItem from="1596058883645" duration="1172000" />
       <workItem from="1596107158212" duration="16000" />
       <workItem from="1596222424055" duration="11516000" />
-      <workItem from="1596274269589" duration="8518000" />
+      <workItem from="1596274269589" duration="8653000" />
+      <workItem from="1596293999187" duration="5409000" />
+      <workItem from="1596349085340" duration="3830000" />
     </task>
     <task id="LOCAL-00001" summary="save final for first two divs">
       <created>1596059397735</created>
@@ -86,7 +88,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596237826052</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="we added main-post and added sidebar-right">
+      <created>1596288384207</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596288384222</updated>
+    </task>
+    <task id="LOCAL-00004" summary="we added main-post and added sidebar-right and sidebar-left part 2">
+      <created>1596299264970</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596299264970</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,20 +112,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="save final for first two divs" />
     <MESSAGE value="we added main-post and added sidebar-left" />
-    <option name="LAST_COMMIT_MESSAGE" value="we added main-post and added sidebar-left" />
+    <MESSAGE value="we added main-post and added sidebar-right" />
+    <MESSAGE value="we added main-post and added sidebar-right and sidebar-left part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="we added main-post and added sidebar-right and sidebar-left part 2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1596237819216">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1596299261971">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596237819216" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1596237834892">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596299261971" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1596299269540">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596237834892" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1596274497650">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596299269540" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1596349452578">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1596274497650" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1596349452578" />
   </component>
 </project>

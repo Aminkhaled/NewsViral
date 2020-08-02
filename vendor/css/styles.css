@@ -74,7 +74,7 @@ start Navbar
     width: 24px;
     height: 20px;
     text-align: center;
-    line-height: 0px;
+    line-height: 0;
     padding-left: 4px;
     color: #fff;
 
@@ -496,11 +496,78 @@ main body post
 }
 .top-authors a{
     text-decoration: none;
-    
+
 }
 .top-authors a img{
     width: 40px;
     height: 40px;
     margin-bottom: 15px;
     margin-right: 3px;
+}
+
+/*
+================
+Short news
+================
+*/
+.short-news{
+
+}
+.short-news .card{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.short-news .card .card-category{
+
+    padding: 2px 11px;
+    background: #2bc6ff;
+    border-radius: 20px;
+    position: relative;
+    top: 5px;
+    color: white;
+    text-decoration: none;
+}
+.short-news .card-body{
+    padding: 5px;
+
+}
+.short-news .card  .card-img{
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    width: 90%;
+}
+.short-news .card h3.card-text {
+font-size: 16px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.short-news .card h3.card-text:hover {
+    color: #e14157;
+    transition: 1s;
+}
+
+
+.short-news .article-info .article-info-writing{
+    display: inline-flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.short-news .article-info .article-info-writing li{
+    margin-right: 10px;
+}
+
+.short-news .article-info .article-info-writing li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+
+}
+.short-news .article-info .article-info-writing li a span {
+    color: black;
+}
+.short-news .article-info  p{
+    margin-left: 35px;
+    font-size: 13px;
 }
