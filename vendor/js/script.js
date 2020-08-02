@@ -62,13 +62,20 @@ $(document).ready(function() {
         console.log($(window).scrollTop())
         if ($(window).scrollTop() > 1150) {
             $('.categories-options-body').addClass('category-fixed');
-            $('.categories-options-body').css('width','225px').css('margin-left','20px');
+            $('.categories-options-body').css('width','225px').css('margin-left','20px').css('transition ','1s');
+            $('.weather-app').css('margin-top','45px');
 
         }
         if ($(window).scrollTop() < 1100) {
             $('.categories-options-body').removeClass('category-fixed');
             $('.categories-options-body').css('width','70%');
+            $('.weather-app').css('margin-top','0px').css('transition ','1s');
 
+
+        }else if($(window).scrollTop() > 1580){
+            $('.categories-options-body').removeClass('category-fixed');
+            $('.categories-options-body').css('width','70%');
+            $('.weather-app').css('margin-top','0px').css('transition ','1s');
         }
     });
 });
