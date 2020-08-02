@@ -213,6 +213,7 @@ border-radius: 10px;
     width: 80%;
 
 }
+
 .categories-options ul{
     margin-left: 30px;
 }
@@ -430,6 +431,15 @@ main body post
     margin-left: 10px;
 
 }
+.category-fixed{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 2222;
+    background-color: #0102039c;
+}
 .main-body-post .category-body{
     position: relative;
     top: -212px;
@@ -570,4 +580,30 @@ font-size: 16px;
 .short-news .article-info  p{
     margin-left: 35px;
     font-size: 13px;
+}
+/*
+-=======================
+subscribe
+=======================
+*/
+.subscribe-area {
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: white;
+    margin-left: 10px;
+    position: relative;
+    top: -246px;
+    right: 15px;
+}
+.subscribe-area h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.subscribe-area form a i{
+    position: absolute;
+    top: 70px;
+    right: 25px;
 }

@@ -58,4 +58,17 @@ $(document).ready(function() {
         width: '300px',
         autoplaySpeed: 2000,
     });
+    $(window).scroll(function () {
+        console.log($(window).scrollTop())
+        if ($(window).scrollTop() > 1150) {
+            $('.categories-options-body').addClass('category-fixed');
+            $('.categories-options-body').css('width','225px').css('margin-left','20px');
+
+        }
+        if ($(window).scrollTop() < 1100) {
+            $('.categories-options-body').removeClass('category-fixed');
+            $('.categories-options-body').css('width','70%');
+
+        }
+    });
 });
