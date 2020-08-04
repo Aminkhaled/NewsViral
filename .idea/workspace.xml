@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ebb5227-8525-4cfd-bdf2-ca49dfeede8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/news-23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +87,7 @@
       <workItem from="1596454443252" duration="3416000" />
       <workItem from="1596473415668" duration="4303000" />
       <workItem from="1596480054096" duration="1270000" />
-      <workItem from="1596571992146" duration="2191000" />
+      <workItem from="1596571992146" duration="3058000" />
     </task>
     <task id="LOCAL-00001" summary="save final for first two divs">
       <created>1596059397735</created>
@@ -149,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596457247719</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="we designed single page">
+      <created>1596574376740</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596574376740</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,17 +168,18 @@
     <MESSAGE value="we added  subscribe Now" />
     <MESSAGE value="we added  footer" />
     <MESSAGE value="we designed contact us page" />
-    <option name="LAST_COMMIT_MESSAGE" value="we designed contact us page" />
+    <MESSAGE value="we designed single page" />
+    <option name="LAST_COMMIT_MESSAGE" value="we designed single page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1596457243717">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1596574369883">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596457243717" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1596457250755">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596574369883" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1596574382308">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596457250755" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596574382308" />
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1596473427511">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
